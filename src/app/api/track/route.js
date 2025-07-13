@@ -1,5 +1,5 @@
 // app/track/route.js
-import prisma from '../../../lib';
+import prisma from '../../../lib/prisma';
 import { getPriceFromUrl } from '../../../lib/scrape';
 
 export async function POST(request) {
